@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    margin-top: 70px;
+    display: grid
+}
+header{
+    margin-bottom: 30px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    
+}
+li{
+    list-style-type: none;
+    
+}
+nav a {
+    font-size: 32px; 
+    text-decoration: none; 
+    font-family: "Inter", serif;
+    font-weight: 314;
+    margin: 0 50px;
+    color: black;
+}
+h1 {
+    font-size: 48px; 
+    margin: 0; 
+    font-family: "Inter", serif;
+    font-weight: 314;
+}
+
+.blockApplications{
+    width: 1217px;
+    height: 616px;
+    background-color: bisque;
+    border-radius: 86px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    text-align: center;
+    font-family: "Inter", serif;
+    font-weight: 314;
+    font-size: 32px; 
+    margin-bottom: 50px;
+}
+.blockInput{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    height: 247px;
+}
+.inputBig{
+    width: 500px;
+    height: 61px;
+    border-radius: 25px;
+    border: 1px solid black;
+    background: none;
+    font-family: "Inter", serif;
+    font-weight: 314;
+    font-size: 24px; 
+    color: black;
+    margin-right: 108px;
+    margin-bottom: 15px;
+}
+.inputMin{
+    width: 393px;
+    height: 61px;
+    border-radius: 25px;
+    border: 1px solid black;
+    background: none;
+    font-family: "Inter", serif;
+    font-weight: 314;
+    font-size: 24px; 
+    color: black;
+    margin-bottom: 15px;
+}
+
+
+.btnArrange{
+    width: 393px;
+    height: 61px;
+    border-radius: 25px;
+    border: 1px solid black;
+    background: none;
+}
+.linkArrange{
+    font-family: "Inter", serif;
+    font-weight: 314;
+    font-size: 32px; 
+    color: black;
+    text-decoration: none;
+    margin: auto;
+
+}
+.btnArrange{
+    display: flex;
+    margin-top: 84px;
+    justify-content: center;
+}
